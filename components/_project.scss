@@ -1,0 +1,41 @@
+.project__mine {
+  display: grid;
+  column-gap: 7.4rem;
+  row-gap: 7.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project__img {
+  box-shadow: rgb(0, 0, 0, 0.2) 0 0 0.5rem;
+  max-width: 100%;
+}
+
+.project__data {
+  align-self: center;
+}
+.h3__heading {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 2.4rem;
+}
+
+.project__description {
+  line-height: 1.5;
+}
+
+.project__link {
+  color: var(--color-blue);
+  font-family: var(--font-family-poppins);
+  font-weight: var(font --font-weight-medium);
+  margin-top: 2.3rem;
+}
+
+.project__link::after {
+  content: "";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url("./images/external-icon.png");
+  background-size: contain;
+  margin-left: 0.6rem;
+}
